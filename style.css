@@ -1,0 +1,15 @@
+*{
+    margin: auto;
+    padding:auto;
+}
+
+.main-header{
+    height: 100vh;
+    max-height: 855px;
+    background-image:url(images/header-images/timo-stern-EvcUtLF12XQ-unsplash\ copy.jpg) ;
+    background-size: cover;
+    background-size: center center;
+}
+.logo{
+    
+}

@@ -113,6 +113,25 @@ opacity: 0.5;
     font-size: 15px;
     margin-right: 12px;
 }
+.top-h-part-icon2ts{
+    color: white;
+}
 
 /* HEADER END */
+.btn{
+    color: #be335c;
+    font-size: 14px;
+    font-weight: 300;
+}
 
+.md-remove{
+    display: none;}
+
+
+    .btn{
+        font-weight: bold;
+        font-size: 14px;
+        color: #be335c;
+        margin-bottom: 20px;
+    }
+ 

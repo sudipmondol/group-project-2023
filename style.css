@@ -1,7 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
 *{
-    margin: auto;
-    padding:auto;
+    margin:0 auto ;
+    padding:0 auto;
 }
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* MAIN HEADER */
 
 .main-header{
     height: 100vh;
@@ -9,7 +18,101 @@
     background-image:url(images/header-images/timo-stern-EvcUtLF12XQ-unsplash\ copy.jpg) ;
     background-size: cover;
     background-size: center center;
+    padding-top: 40px;
+    position: relative;
+}
+
+.main-header::before{
+content: "";
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.2);
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 10;
+}
+.navbar-overlay{
+    position: relative;
+    z-index: 20;
 }
 .logo{
+    /* margin-left: 30px; */
     
 }
+
+.logo-1{
+    display: inline-block;
+
+
+}
+.logo-text{
+    display: inline-block;
+    
+}
+.search-icon{
+    margin-left: 10px;
+
+}
+.top-h-part{
+height: 40px;
+background-color: #060606;
+
+}
+.top-h-part-all{
+margin-left: 30px;
+padding-top: 5px;
+opacity: 0.5;
+}
+
+.top-h-part-text{
+    display: inline-block;
+}
+.top-h-part-text p{
+    font-size: 13px;
+}
+.top-h-part-icon{
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.h-icon{
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.top-h-part-all2{
+    
+    padding-top: 5px;
+    opacity: 0.5;
+    }
+
+.top-h-part-text2{
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+.top-h-part-icon2t{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.top-h-part-icon2{
+    display: inline-block;
+    margin-left: 10px;
+    width: 16px;
+    height: 10px;
+
+}
+
+.h-icon2{
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+/* HEADER END */
+
